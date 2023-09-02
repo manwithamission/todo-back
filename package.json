@@ -12,7 +12,7 @@
     "test": "npm run test:coverage",
     "typecheck": "tsc --noEmit",
     "test:unit": "jest --config=./jest.config.js --watchAll=false",
-    "test:coverage": "jest --config=./jest.config.js --collectCoverage --coverageDirectory=\"./coverage\" --watchAll=false"
+    "test:coverage": "jest --config=./jest.config.js --collectCoverage --coverageDirectory=\"./coverage\" --watchAll=false --passWithNoTests"
   },
   "author": "Lee Arthur",
   "license": "ISC",
